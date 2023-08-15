@@ -1,0 +1,109 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease;
+}
+
+
+.header {
+  background-color: #3498db7a;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.location-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+}
+
+.check-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f5f5f552;
+}
+
+.location h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* ... other styles ... */
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap; /* Allow items to wrap to a new line if needed */
+}
+
+.info {
+  flex-basis: calc(50% - 10px); /* Half width minus spacing */
+  margin-bottom: 15px;
+}
+
+/* For mobile responsiveness: Items should stack on smaller screens */
+@media (max-width: 768px) {
+  .info {
+    flex-basis: 100%; /* Full width for small screens */
+  }
+}
+
+
+/* Background Image */
+.Rain {
+  background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/7FE5/production/_130314723_gettyimages-1383026300-1.jpg');}
+.snow {
+  background-image: url('https://wallpaperset.com/w/full/6/5/1/197808.jpg'); }
+.Mist {
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/fog--mist/foggy-morning-in-a-meadow.jpg'); }
+.sand {
+  background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2022/06/03/thumbs_b_c_35da08325b7eb630caaf7e4f53a21703.jpg?v=143535'); }
+.thunderstorm {
+  background-image: url('https://s.w-x.co/thunderstormasthma.jpg');}
+.Drizzle {
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/rain/raindrops-misted-on-a-windscreen.jpg');}
+.smoke {
+  background-image: url('https://c0.wallpaperflare.com/preview/992/147/619/weather-smoke-smog-pollution.jpg');}
+.haze {
+  background-image: url('https://c1.wallpaperflare.com/preview/263/621/319/trees-fog-forest-forrest.jpg');}
+.dust {
+  background-image: url('https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2022-03/sandstorm_aspot_pxhere.jpg?h=d1cb525d&itok=xPAAZtyf');}
+.fog {
+  background-image: url('https://do0bihdskp9dy.cloudfront.net/07-13-2021/t_9c1ef399b9d446ba94e742bb66a501a5_name_t_bc3e74a6f3cd4aa7827169e691066448_name_fog.JPG');}
+.ash {
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/industry/semeru-volcano-ash-plume.jpg');}
+.Squall {
+  background-image: url('https://c02.purpledshub.com/uploads/sites/41/2022/07/AlamyDB66PW-tb-c10b921.jpg');}
+.Tornado {
+  background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/hurricane--tornado/tornado-in-the-usa.-photo-matt-clark.jpg');}
+.Clear {
+  background-image: url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3doeS1pcy1za3ktYmx1ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==');}
+.Clouds {
+  background-image: url('https://www.pacificflying.com/wp-content/uploads/Magda-Ehlers-clouds.jpg');}
+
+/* ---------*/
